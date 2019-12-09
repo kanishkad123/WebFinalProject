@@ -1,6 +1,6 @@
 //Dynamic header
 let headerData = [
-    { href: "/index.html", name: "Matches" },
+    { href: "/WebFinalProject", name: "Matches" },
     { href: "/WebFinalProject/news/news.html", name: "News" },
     { href: "/WebFinalProject/matches/table.html", name: "Table" },
     { href: "/WebFinalProject/players/players.html", name: "Players" },
