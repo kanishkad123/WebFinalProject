@@ -1,16 +1,16 @@
 //Dynamic header
 let headerData = [
     { href: "/index.html", name: "Matches" },
-    { href: "/news/news.html", name: "News" },
-    { href: "/matches/table.html", name: "Table" },
-    { href: "/players/players.html", name: "Players" },
-    { href: "/var/VAR.html", name: "VAR" },
-    { href: "/women/wfootball.html", name: "Women's Football" },
-    { href: "/refree/refereePage.html", name: "Referee Page" },
-    { href: "/awards/awardpage.html", name: "Award Page" },
-    { href: "/merchandise/merchandise.html", name: "Merchandise" },
-    { href: "/leagues/legues.html", name: "Leagues" },
-    { href: "/highlights/highlights.html", name: "Highlights" }
+    { href: "/WebFinalProject/news/news.html", name: "News" },
+    { href: "/WebFinalProject/matches/table.html", name: "Table" },
+    { href: "/WebFinalProject/players/players.html", name: "Players" },
+    { href: "/WebFinalProject/var/VAR.html", name: "VAR" },
+    { href: "/WebFinalProject/women/wfootball.html", name: "Women's Football" },
+    { href: "/WebFinalProject/refree/refereePage.html", name: "Referee Page" },
+    { href: "/WebFinalProject/awards/awardpage.html", name: "Award Page" },
+    { href: "/WebFinalProject/merchandise/merchandise.html", name: "Merchandise" },
+    { href: "/WebFinalProject/leagues/legues.html", name: "Leagues" },
+    { href: "/WebFinalProject/highlights/highlights.html", name: "Highlights" }
 ]
 
 let header = document.getElementById('headerNav');
