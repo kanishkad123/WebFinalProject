@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- points table feature -->
+
+<head>
+    <title>Matches played</title>
+    <link rel="stylesheet" href="styles/kanishka.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link href="assets/soccer.ico" rel="shortcut icon" type="image/png" />
+    <meta charset="utf-8">
+    <meta name="description" content="Detailed matches played in the championships data" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="soccer, football clubs, fc " />
+</head>
+
+<body onLoad="buildHtmlTable('#clubStandings')">
+    <!-- header should remain constant for all pages which will contain navigation links -->
+    <header>
+        <nav id="headerNav">
+
+        </nav>
+    </header>
+    <main>
+        <div class="match-details-container">
+            <!-- heading h2 -->
+            Season<br />
+            <div class="box">
+                <select>
+                    <option>2019-20</option>
+                    <option>2018-19</option>
+                    <option>2017-18</option>
+                    <option>2016-17</option>
+                </select>
+            </div>
+
+            <h2>Club Standings</h2>
+            <table id="clubStandings">
+            </table>
+            <hr />
+            <!--Modal popup images with interactive display-->
+            <h2>Image-Popup Highlights!</h2>
+            <section>
+                <div id="main-row" class="row">
+                    <div class="column">
+                        <img id="myImg0" src="assets/extras/extra1.jpg" alt="What a save by the goalkeeper!">
+                        <img id="myImg1" src="assets/extras/extra2.jpg" alt="Gotze! GOAAL!!">
+                        <img id="myImg2" src="assets/extras/extra3.jpg" alt="Just punched the ball away!">
+                        <img id="myImg3" src="assets/extras/extra4.jpg" alt="GOALLLLLL! They are into the finals!">
+                        <img id="myImg4" src="assets/extras/extra5.jpg" alt="Messi being Messi!!">
+                        <img id="myImg5" src="assets/extras/extra6.jpg"
+                            alt=" 4 Years of hardwork. Their expressions say it all">
+                        <img id="myImg6" src="assets/extras/extra7.jpg"
+                            alt="12 years the manager has waited, and finally!">
+                    </div>
+                    <div class="column">
+                        <img id="myImg7" src="assets/extras/extra8.jpg" alt="Canadian team!">
+                        <img id="myImg8" src="assets/extras/extra9.jpg" alt="Barcelona!">
+                        <img id="myImg9" src="assets/extras/extra10.jpg" alt="Group photo anyone?!">
+                        <img id="myImg10" src="assets/extras/extra11.jpg" alt="fitness">
+                        <img id="myImg11" src="assets/extras/extra12.jpg" alt="Tossed away!">
+                        <img id="myImg12" src="assets/extras/extra13.jpg" alt="run along!">
+                        <img id="myImg13" src="assets/club-logos/liverpool.png" alt="liverpool.">
+                    </div>
+                    <div class="column">
+                        <img id="myImg14" src="assets/extras/extra.jpg" alt="Group one!">
+                        <img id="myImg15" src="assets/club-logos/chelsea.png" alt="chelsea.">
+                        <img id="myImg16" src="assets/club-logos/granada.png" alt="granada">
+                        <img id="myImg17" src="assets/club-logos/dortmund.png" alt="dortmund">
+                        <img id="myImg18" src="assets/club-logos/juventus.png" alt="juventus">
+                        <img id="myImg19" src="assets/club-logos/levante.png" alt="levante">
+                    </div>
+                    <img id="myImg20" width="300px" height="600px" src="assets/extras/extras1.jpg" alt="letbegin">
+
+                    <!--Reusable modal popup-->
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <!--Video highlights in iframe embedded (youtube)-->
+            <h2>Video Highlights!</h2>
+            <section class="card timeline-card">
+                <a href="matches/match_details.html">
+                    <p class="image-text-center-align">
+                        <button>Details</button> &nbsp;&nbsp;
+                        <strong>Wednesday, 10-23</strong>&nbsp;&nbsp;
+                        <img src="assets/club-logos/napoli.png" height="35" width="35"></img> Napoli - 3
+                        <img src="assets/club-logos/liverpool.png" height="35" width="35"></img>Liverpool - 2
+                    </p>
+                </a>
+                <section class="iframe-responsive-wrapper">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Krr8xEf6u68" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </section>
+            </section>
+            <section class="card timeline-card">
+                <a href="matches/match_details.html">
+                    <p class="image-text-center-align">
+                        <button>Details</button> &nbsp;&nbsp;
+                        <strong>Thursday, 01-12</strong>
+                        <img src="assets/club-logos/bayernmunich.png" height="35" width="35"></img> Benfica - 1
+                        <img src="assets/club-logos/levante.png" height="35" width="35"></img>RB Leipzig - 2
+                    </p>
+                </a>
+                <section class="iframe-responsive-wrapper">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/EB8zRzuVElg" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </section>
+            </section>
+        </div>
+    </main>
+    <!--inclusion of javascript-->
+    <script src="js/main.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="js/table.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+
+</html>
