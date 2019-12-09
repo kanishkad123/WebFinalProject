@@ -10,7 +10,8 @@ let headerData = [
     { href: "/WebFinalProject/awards/awardpage.html", name: "Award Page" },
     { href: "/WebFinalProject/merchandise/merchandise.html", name: "Merchandise" },
     { href: "/WebFinalProject/leagues/legues.html", name: "Leagues" },
-    { href: "/WebFinalProject/highlights/highlights.html", name: "Highlights" }
+    { href: "/WebFinalProject/highlights/highlights.html", name: "Highlights" },
+    { href: "comment/commentpagenew.html", name: "Comments" },
 ]
 
 let header = document.getElementById('headerNav');
